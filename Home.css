@@ -1,0 +1,205 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding 0;
+}
+#header {
+    background-color: darkblue;
+    border-bottom: 5px solid coral;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: coral;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar li   {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: coral;
+}
+
+#banner p {
+    color: #fff;
+}
+
+#banner {
+    height: 60vh;
+    background-image: url(rasm1.jpg);
+    background-size: cover;
+    background-position: center;   
+    text-align: center;
+    color #fff;
+    font-family: sans-serif;
+}
+
+#banner h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 150px;
+    color: #fff;
+}
+
+#newsletter {
+    background-color: darkblue;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .right {
+    float: right:
+        width: 50%;
+}
+
+#newsletter .left {
+    float: left;
+    width: 50%;
+}
+
+#newsletter input {
+    padding: 5px;
+}
+
+.button {
+    padding: 8px 15px;
+    border: none;
+    color: #fff;
+    background-color: coral;
+    margin-left: 15px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: coral;
+}
+
+#courses {
+    padding: 30px 0;
+}
+
+.box {
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+
+.box img {
+    max-width: 100%;
+    width: 120px
+}
+#footer {
+    background-color: darkblue;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.clr {
+    clear: both;
+}
+
+#About-us {
+    margin: 40px 0;
+    margin-bottom: 40px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.main-content {
+  width: 65;  
+  float: left;
+}
+
+.sidebar {
+    width: 30%;
+        float: right;
+    
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: right;
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+#left1 {
+    width: 60%;
+    float: left;
+}
+
+.content {
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #e5e5e5;
+}
+
+.right1 {
+    display: block;
+    margin: 5px;
+    width: 35%;
+    float: right;
+    background-color: darkblue;
+    color: white;
+    box-sizing: border-box;
+}
+
+.form-input {
+    width: 90%;
+    display: inline-block;
+    margin: 10px 10px;;
+    box-sizing: border-box;
+}
+
+.button1 {
+    padding: 10px;
+    margin: 5px;
+    margin-left: 10px;
+    background-color: coral;
+}
+
+.button1:hover{
+    background-color: white;
+    color: coral;
+}
+
+label {
+    margin-left: 10px;
+}
